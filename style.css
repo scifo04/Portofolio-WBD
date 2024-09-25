@@ -370,6 +370,7 @@ p.intro {
     .flexing-porto {
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
     .container#introcontainer {
         flex-direction: column;
@@ -446,5 +447,12 @@ p.intro {
     .iconproject {
         height: 34vh;
         width: 34vh;
+    }
+}
+
+@media (max-height: 1100px) and (min-height: 1000px) {
+    .portobutton {
+        height: 100vh;
+        width: 60vh;
     }
 }
